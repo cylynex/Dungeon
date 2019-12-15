@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1414090044234652}
+  m_IsPrefabAsset: 1
+--- !u!1 &1414090044234652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4285836251159296}
+  - component: {fileID: 114728360784951186}
+  - component: {fileID: 114495253067854066}
+  - component: {fileID: 114585830797914920}
+  - component: {fileID: 114529376189269568}
+  - component: {fileID: 114618710412347082}
+  - component: {fileID: 114786435915375038}
+  m_Layer: 0
+  m_Name: Game Manager - Load Only
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4285836251159296
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414090044234652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 917.4967, y: 698.53204, z: -18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114495253067854066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414090044234652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4613809d3f5e486787f77b65b69c044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile:
+    dungeonCampsOpen: 
+    characters: []
+    inventory: 
+    spellBook: 
+    activeCharacterID: 0
+    gold: 0
+    characterSlots: 0
+    characterNames: []
+    characterInventory: []
+    characterEquippedGear: []
+    characterSpells: []
+--- !u!114 &114529376189269568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414090044234652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03338a228eacc4d9d996ca127f6a1ffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114585830797914920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414090044234652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb60cc1a38da4347b6f02415239c537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDB: {fileID: 11400000, guid: bfd3c9733dba848c092e88ad596c8f70, type: 2}
+  wizardSpells: {fileID: 11400000, guid: 2a338e8ffc34b43c386ec5926d2165d9, type: 2}
+  clericSpells: {fileID: 11400000, guid: 37727db63bfcc420ebae96d29c6b0415, type: 2}
+  experiencePerLevel:
+  - 0
+  - 25
+  - 100
+  - 200
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!114 &114618710412347082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414090044234652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221510daf3ab4422b85c178f76c7e08f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpBarText: {fileID: 0}
+  xpBarText: {fileID: 0}
+  castBarText: {fileID: 0}
+  hpBar: {fileID: 0}
+  xpBar: {fileID: 0}
+  castBar: {fileID: 0}
+--- !u!114 &114728360784951186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414090044234652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3073dc35703e24a1584870dce74a3cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114786435915375038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414090044234652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d773af0add3b64c86931ac0dbedd8162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charNames: []
+  charGear: []

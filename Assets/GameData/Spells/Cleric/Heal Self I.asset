@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b9bccbc71bc4dabaaf086b1ddaaaf6, type: 3}
+  m_Name: Heal Self I
+  m_EditorClassIdentifier: 
+  spellID: 100
+  spellName: Heal Self I
+  spellPrefab: {fileID: 0}
+  healSpell: 1
+  ddSpell: 0
+  spellMoveSpeed: 0
+  spellExplosionRadius: 0
+  spellDamage: 0
+  spellImpactEffect: {fileID: 0}
+  amountToHeal: 4
+  selfonly: 1
+  spellDamageBonus: 0

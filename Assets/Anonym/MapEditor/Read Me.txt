@@ -1,0 +1,183 @@
+﻿[Anonym Isometric Builder]
+    Editor Extensions/2D & Sprite Management
+    This extension requires one license per seat
+    (Changed) Requires Unity 5.6 or higher
+	Requires Unity A version or higher version since the 1.2.5 update.
+
+    Email me if you have any bugs or comments
+    by Anonym(hg.studio.one@gmail.com)
+
+	Web Site
+	https://hgstudioone.wixsite.com/isometricbuilder
+
+	Unity Forum
+	https://forum.unity.com/threads/released-isometric-builder-powerful-isometric-map-editor-for-3d-world.512111/
+
+	Asset Store
+	https://www.assetstore.unity3d.com/en/#!/content/98848
+
+[Tutorials]
+    1.  Youtube Tutorials
+        https://www.youtube.com/playlist?list=PLFBcmjDxL7ATka0irlRs64M6YBmOYeJVC
+    
+    2. How to Start
+		https://1drv.ms/p/s!Av4r1XquEJjij4MeZddaplhE0puFSA 
+	
+	3. Components Guide Sway
+        https://sway.com/DrytvEKsYMk90IQD?ref=Link
+
+
+[Version History]
+	1.3.5
+		[Improved]
+			Auto ISO
+			OnSceneGUI for multiple controls
+			Now we can instantiate the IsoBulk on runtime of AutoISO Mode.
+
+		[New]
+			IsoBasis for the alignment of ground objects.
+			WebGL Demo
+
+		[BugFix]
+			CharacterController: Break while RevertPosition
+
+	1.2.5.2.1
+		[Bug Fix]
+			Regular Collider SO, calculated improperly.
+	1.2.5.2
+		[New] 
+			Auto ISO Mode!
+			TallCharacterHelper
+
+		[Improved: Character Controller]
+			IsometricSortingOrder
+			ParticleSortingTrick
+			Isotile Attachment Editor
+
+		[Bug Fix]
+			Fixed missing prefab bug in pre-v.2018.2
+
+	1.2.4
+		[New]
+			IsoHierarchyWindow
+			SSHelper
+
+		[Improved]
+			Character Controller
+			8-Directional Movement
+			Continuous Movement
+			Sample Animator for 8-Dir Sprite animation
+
+	1.2.3
+		[New]
+			IsometricNavMeshAgent
+			It uses NavMeshAgent and helps to navigate Isometric space.
+			This allows pathfinding and jumping on NavMesh.
+
+		[Improved]		
+			The Now Height (Y) value no longer affects the Scale_Y value of the RegularCollider.
+			Now, when you drag the local grid, the value of the global grid is intuitively applied.
+
+	1.2.2
+		[New]
+			Atlas Helper(#if UNITY_2017_1_OR_NEWER)
+		[Improved]
+			Isometric Bakery - MeshForNavMesh component
+
+	1.2.1
+		[Bug Fixed]
+			IsoLight - Improved color calculation
+			IsoLight - Remove reference when IsoLighterReciver.OnDestroy.
+
+	1.2.0
+		[New]
+			IsoLight
+			Isometric Bakery			
+
+		[Improved]
+			Isometric Character Controller(with Key Input Assist)
+
+	1.1.2
+		[Bug Fixed]
+		Extrude Handle dose not work under certain conditions
+		Scale.z issue for using with other shader
+		UI Color for profesional skin users
+	
+	1.1.1
+        [New]
+        Resource: White Style Tile
+        Scene: Particle & Physics Sample Scene
+
+        [Bug Fixed]
+        Now...
+        Bulk.Coordinates can find the Bulk's Grid.
+        If there was a problem bulk in project, move the bulk once to the child of another object and it will work normally.
+
+        Grid component update all affected bulk / tiles when LocalGrid is activated / deactivated.
+
+        Overlay and Obstacle of IsoTile are created with modified size according to the size of tile.
+
+        Particle System's trsform is applied to Particle Trick normally.
+        When using gradient colors, colors are applied normally.
+
+        Nothing happens in Self CopyCat of IsoTile.
+
+        Displayed by applying the SpriteRenderer's color to the Union Tile inspector.
+
+	1.1.0
+        [New features]
+        1. Particle sort trick
+            check the 3D position of each particles to enhance the visibility check and collision check
+
+        2. Depth adjustment of tile decoration (overlay & obstacle)
+            Now you can easily adjust the depth of all the decorations in the tile's Inspector.
+
+        [Deactivate function]
+        The related functionality has been improved and now bsoIsometricSorting of IsoMap is no longer necessary.
+        (It is no longer visible when Off in the Inspector)
+
+        and Minor bug fixes
+
+    
+    1.0.2 
+        [Guide for users who were using previous versions]
+        There are file creation/deletion issues in the process of grouping some classes into Util folders. 
+        Please check the following steps and proceed.
+        (If you had individual work in the Anonym folder, back up and update the work.)
+            1. Create a new scene
+            2. Delete the Assets / Anonym folder
+            3. Update to the latest version
+
+        [Fixed Bug]
+        Missing Sprite Link
+        Building Error
+
+    1.0.1 BugFix
+        Invalid instance generation bug
+        Coordinates Bug of bulk
+
+    1.0 Initial Version	    
+
+[Graphic Resource (CC0, CC-BY)]
+    1.	Kenney’s Asset
+        A.	Isometric Dungeon Tiles
+            http://www.kenney.nl/assets/isometric-dungeon-tiles
+        B.	Isometric City
+            http://www.kenney.nl/assets/isometric-city
+        C.	Isometric Blocks
+            http://www.kenney.nl/assets/isometric-blocks
+            
+    2.	Medieval Building Tileset
+        https://opengameart.org/content/isometric-64x64-medieval-building-tileset
+
+    3.  laetissima
+        https://opengameart.org/users/laetissima
+
+	4. Erikari
+		https://erikari.itch.io/elements-supremacy-assets
+        
+[On Developing]
+    Selection Tool
+    Pixel Perfect Tool
+    Style Sheets
+    3D Support

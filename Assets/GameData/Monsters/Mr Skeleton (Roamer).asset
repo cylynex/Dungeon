@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa249398534f34f7b900e0740502b819, type: 3}
+  m_Name: Mr Skeleton (Roamer)
+  m_EditorClassIdentifier: 
+  monsterName: Mr Skeleton
+  monsterImage: {fileID: 21300000, guid: b1d5a5f3fab3b499aa9c1a3ee7a09c3d, type: 3}
+  monsterScale: {x: 0.5, y: 0.5, z: 0}
+  monsterPrefab: {fileID: 1374903075812004, guid: 7869b9c4c58fa428bb5bba56abfcb0f4,
+    type: 2}
+  level: 1
+  hitPoints: 1
+  damage: 1
+  range: 1
+  attackTime: 3
+  aggroRange: 2.5
+  speed: 0.5
+  resistPhysical: 0
+  resistCold: 0
+  resistFire: 0
+  resistElectric: 0
+  resistPoison: 2
+  goldLow: 3
+  goldHigh: 8
+  lootTable: {fileID: 11400000, guid: 08de9f9769eae4852beaaba1fc671f30, type: 2}
+  xpPerKill: 2

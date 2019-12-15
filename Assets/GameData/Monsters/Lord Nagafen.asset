@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa249398534f34f7b900e0740502b819, type: 3}
+  m_Name: Lord Nagafen
+  m_EditorClassIdentifier: 
+  monsterName: Lord Nagafen
+  monsterImage: {fileID: 21300000, guid: d60818b0f77974871991a5ee70814433, type: 3}
+  monsterScale: {x: 2.5, y: 2.5, z: 2.5}
+  monsterPrefab: {fileID: 1374903075812004, guid: bc20e83c3fcc14c899faf91dd828a9ff,
+    type: 2}
+  level: 2
+  hitPoints: 20
+  damage: 3
+  range: 4
+  attackTime: 5
+  aggroRange: 3
+  speed: 2
+  resistPhysical: 0
+  resistCold: 0
+  resistFire: 10
+  resistElectric: 0
+  resistPoison: 0
+  goldLow: 50
+  goldHigh: 100
+  lootTable: {fileID: 11400000, guid: b2e4f3381e2e846dfbcf06f76eeeb056, type: 2}
+  xpPerKill: 10

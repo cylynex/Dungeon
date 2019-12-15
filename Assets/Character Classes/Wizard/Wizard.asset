@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7421fa0947f134cd8b70c984ddf1f5d0, type: 3}
+  m_Name: Wizard
+  m_EditorClassIdentifier: 
+  className: Wizard
+  classImage: {fileID: 21300000, guid: 4d650cd4768194c6b93aee54883709a9, type: 3}
+  classType: Caster
+  classDescription: The Glass cannon.  The DPS.  The Power.  The one most likely to
+    be found wearing a dress.
+  hasSpells: 1
+  hasAbilities: 0
+  baseHitPoints: 7
+  attackRange: 4
+  damage: 2
+  attackTime: 20
+  speed: 4
+  strength: 1
+  stamina: 1
+  intelligence: 0
+  dexterity: 0
+  spells:
+  - {fileID: 11400000, guid: 0c1307da1a88047af8d7c053a796ab5e, type: 2}
+  - {fileID: 11400000, guid: 9ed882400a67c4753bd0f3f70858d0b7, type: 2}
+  startingItems:
+  - {fileID: 11400000, guid: 8ac15ccbf85d9488fabdd79c2829180c, type: 2}
+  - {fileID: 11400000, guid: 58fbacc5ee27b41fcb429ae12971018d, type: 2}

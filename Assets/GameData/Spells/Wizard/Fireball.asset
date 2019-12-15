@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b9bccbc71bc4dabaaf086b1ddaaaf6, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  spellID: 1
+  spellName: Fireball
+  spellPrefab: {fileID: 1793157926481972, guid: ea689c5c206cd44ce83f87b5f0dd7bac,
+    type: 2}
+  healSpell: 0
+  ddSpell: 1
+  spellMoveSpeed: 10
+  spellExplosionRadius: 0
+  spellDamage: 3
+  spellImpactEffect: {fileID: 1275139540894852, guid: 64413a51a0e86471bb50920251972d4e,
+    type: 2}
+  amountToHeal: 0
+  selfonly: 0

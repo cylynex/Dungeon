@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde2e6400c4a941f484dd7de515a7ad9, type: 3}
+  m_Name: Camp 1
+  m_EditorClassIdentifier: 
+  campName: Outer Chambers
+  campID: 1
+  campMap: {fileID: 1804484277236544, guid: d48105362764e47d29c53e380209997b, type: 2}
+  campDescription: The first camp in the dungeon.  The zone in.  The greeny gold mine.  Something
+    else that Teal will probably think of that's way funnier would also be said here.  Maybe
+    a picture would be a good idea too.
+  winCondition: {fileID: 11400000, guid: 47ebdf386befc4a64bd8b573fb1862e2, type: 2}

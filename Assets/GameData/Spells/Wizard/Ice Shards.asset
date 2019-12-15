@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b9bccbc71bc4dabaaf086b1ddaaaf6, type: 3}
+  m_Name: Ice Shards
+  m_EditorClassIdentifier: 
+  spellID: 2
+  spellName: Ice Shards
+  spellPrefab: {fileID: 1442406363128256, guid: 57b6cc52b1d504945832f69aaec2a750,
+    type: 2}
+  healSpell: 0
+  ddSpell: 1
+  spellMoveSpeed: 10
+  spellExplosionRadius: 1
+  spellDamage: 2
+  spellImpactEffect: {fileID: 1275139540894852, guid: 0742f85018d4840b2b15af7de2b0b653,
+    type: 2}
+  amountToHeal: 0
+  selfonly: 0
+  spellDamageBonus: 0

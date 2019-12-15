@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/_preload.unity
+    guid: 63aa93eca84dc4a59a85317e2eb27dc3
+  - enabled: 1
+    path: Assets/Scenes/LoadScreen.unity
+    guid: 2092e709c9fc048feb4653e64ecee3f7
+  - enabled: 1
+    path: Assets/Scenes/WorldMap.unity
+    guid: 6cc258ee9dc6844dbb844febf3a23c6c
+  - enabled: 1
+    path: Assets/Scenes/Zone.unity
+    guid: 916665ec14b1849a491bd216662b422b
+  - enabled: 1
+    path: Assets/Scenes/DungeonLoad.unity
+    guid: f5c8c228eae4e4a9fbc01e2b5be466ea
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 5a5895da6eb7f46f09ade1292e70b02c
+  - enabled: 1
+    path: Assets/Scenes/IsometricDungeon.unity
+    guid: 0d6d06f16e18d4f2594927e8024c6df5
+  - enabled: 1
+    path: Assets/Scenes/Dungeon_1.unity
+    guid: dc03030a327224b978940e06993e4ed5
+  - enabled: 1
+    path: Assets/Scenes/Stats.unity
+    guid: 68fb8ce0bdc354655affdbb447730ea7
+  - enabled: 1
+    path: Assets/Scenes/Character.unity
+    guid: e5301aa4ef5f24694958f25bb3ebe9c4
+  - enabled: 1
+    path: Assets/Scenes/CharacterManagement.unity
+    guid: 89bf01ccc0b5d4afc840b1196dcabd06
+  - enabled: 1
+    path: Assets/Scenes/Character Creation.unity
+    guid: 46261dc52c7a64ccbaa006eaea016ec4
+  m_configObjects: {}

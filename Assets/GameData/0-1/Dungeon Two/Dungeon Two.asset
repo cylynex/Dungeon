@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3058e6de606c453b9184705c7c9151e, type: 3}
+  m_Name: Dungeon Two
+  m_EditorClassIdentifier: 
+  dungeonName: Dungeon Two
+  dungeonID: 1
+  dungeonDescription: This is a harder dungeon than the first.  This is demonstrating
+    the use of objects to create unique dungeons with totally different camps and
+    load screens.
+  dungeonLoadBackground: {fileID: 21300000, guid: 04587c4613a0f45ee9ce746671590f9b,
+    type: 3}
+  textColor1: {r: 0.73393774, g: 0, b: 1, a: 1}
+  textColor2: {r: 0.9528302, g: 0.112362035, b: 0.73993623, a: 1}
+  textColor3: {r: 1, g: 1, b: 1, a: 1}
+  textColor4: {r: 0.9811321, g: 0.15719397, b: 0.11569952, a: 1}
+  dungeonRespawnTime: 120
+  camps:
+  - {fileID: 11400000, guid: 98c83457706a5402f8c172fcd374d143, type: 2}
+  - {fileID: 11400000, guid: 5f8982e387da148dfb3c0e21b351a01a, type: 2}
+  - {fileID: 11400000, guid: cc4af56209904490cbd3ef3c8da14bb2, type: 2}
+  - {fileID: 11400000, guid: db4e179894c074db6b8ea92976609465, type: 2}
+  - {fileID: 11400000, guid: 3bcbec462b7c84d25841d42ba86c79c1, type: 2}

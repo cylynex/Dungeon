@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7421fa0947f134cd8b70c984ddf1f5d0, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: 
+  className: Warrior
+  classImage: {fileID: 21300000, guid: 4bf65247992de43b6a553474965b1299, type: 3}
+  classType: Melee
+  classDescription: The Warrior.  The Tank.  The prima donna of the group.  If you
+    can get them to join your group.
+  hasSpells: 0
+  hasAbilities: 0
+  baseHitPoints: 10
+  attackRange: 1
+  damage: 2
+  attackTime: 30
+  speed: 1
+  strength: 1
+  stamina: 3
+  intelligence: 0
+  dexterity: 0
+  spells: []
+  startingItems:
+  - {fileID: 11400000, guid: f7a4c696f2e534d008d7a566220f0eb8, type: 2}
+  - {fileID: 11400000, guid: 003aa31ee122143489adf946c39f66db, type: 2}
